@@ -1,7 +1,6 @@
 plugins {
     id("com.android.application")
     id("kotlin-android")
-    id("io.johnsonlee.template-gradle-plugin")
 }
 
 repositories {
@@ -13,7 +12,7 @@ android {
     compileSdkVersion(30)
 
     defaultConfig {
-        applicationId = "io.johnsonlee.example"
+        applicationId = "io.neighbwang.example"
         minSdkVersion(21)
         targetSdkVersion(30)
         versionCode = 1
@@ -49,7 +48,6 @@ dependencies {
     implementation("androidx.fragment:fragment-ktx:1.3.6")
     implementation("androidx.lifecycle:lifecycle-common:2.3.1")
     implementation("androidx.constraintlayout:constraintlayout:2.1.1")
-    implementation(project(":framework"))
     testImplementation("junit:junit:4.+")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")
     androidTestImplementation("androidx.test:runner:1.4.0")

@@ -22,6 +22,7 @@ dependencies {
 }
 
 sourceSets {
+
     main {
         java {
             srcDirs("../buildSrc/src/main/java")
@@ -32,8 +33,8 @@ sourceSets {
 gradlePlugin {
     plugins {
         create("TemplatePlugin") {
-            id = "io.johnsonlee.template-gradle-plugin"
-            implementationClass = "io.johnsonlee.template.gradle.TemplatePlugin"
+            id = "io.neighbwang.template-gradle-plugin"
+            implementationClass = "io.neighbwang.template.gradle.TemplatePlugin"
         }
     }
 }

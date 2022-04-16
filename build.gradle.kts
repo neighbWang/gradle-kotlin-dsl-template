@@ -13,5 +13,5 @@ buildscript {
     }
 }
 
-group = "io.johnsonlee.template"
+group = "io.neighbwang.template"
 version = "1.0.0-SNAPSHOT"
